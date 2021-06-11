@@ -1,0 +1,569 @@
+/* Start Reset Section */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* End Reset Section  */
+
+/* Start Global Section */
+
+.p-20-0 {
+    padding: 20px 0px;
+}
+
+.contanier {
+    width: 85%;
+    margin: auto;
+}
+p{
+    color:#7a7373 ;
+    padding-bottom: 15px;
+}
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.overlay {
+    background-color: rgb(0 0 0 / 46%);
+}
+
+.bg-gray {
+    background-color: #f5f5f5;
+}
+
+
+.line {
+    width: 64px;
+    height: 2px;
+    background: #ff8b38;
+    display: block;
+    margin: 30px 0px;
+}
+/* End Global Section */
+
+/* Start Nav Section */
+
+nav {
+    background-color: black;
+    padding: 1% 0%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+nav .nav-img {
+    width: 55%;
+}
+
+nav .nav-img img {
+    height: 30px;
+}
+
+nav .nav-links {
+    width: 35%;
+    font-size: 15px;
+    float: right;
+}
+
+nav .nav-links ul li {
+    margin-right: 6.5%;
+}
+
+nav .nav-links a {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+nav .nav-links a:hover {
+    color: #ff9b51;
+}
+
+/* End Nav Section */
+
+/*Start Features Section*/
+
+#features {
+    overflow: hidden;
+    background-image: url('../assets/imgs/banner.jpg');
+}
+#features .line{
+    background: white !important;
+}
+#features .card {
+    width: 49%;
+    margin: 14% 0% 5%;
+}
+
+#features .card-btn {
+    width: 135px;
+    height: 42px;
+    line-height: 40px;
+    border: 2px solid white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+    display: block;
+}
+
+#features .card-btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#features form {
+    max-width: 60%;
+    width: 100%;
+    margin-left: 30%;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#features form h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    background: #f5f5f5;
+    padding: 20px 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#features form h3 span {
+    color: #ff9b51;
+}
+
+#features .card-form {
+    margin: 0% 10%;
+}
+
+#features form .card-form input {
+    width: 85%;
+    border: none;
+    margin-top: 30px;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 10px;
+    outline: 0;
+}
+
+#features form .card-form input:focus {
+    border-bottom: 1px solid #ff9b51;
+}
+
+#features form .submit {
+    background: #ff9b51;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-radius: 0px 0px 3px 3px;
+    margin-top: 50px;
+    padding: 20px 0;
+    border: none;
+    font-weight: 600;
+}
+
+#features form .submit:hover {
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*End Features Section*/
+
+/*Start Social-Links Section*/
+
+#Social-Links {
+    padding: 1% 0%;
+}
+
+
+#Social-Links .left {
+    width: 40%;
+}
+
+#Social-Links .right {
+    margin-left: 17%;
+}
+
+#Social-Links .right i {
+    padding: 10px 0px 0 21px;
+    color: #cccccc;
+}
+
+#Social-Links .right i:hover {
+    color: #ff9b51;
+}
+
+/*End Social-Links Section*/
+
+/*Start About Section*/
+#about .about1{
+    text-align: left;
+    padding: 5% 0% 5%;
+}
+
+#about .about1 .card1 ul li a{
+    width: 112px;
+    line-height: 112px;
+    display: block;
+    background: #333333;
+    border-bottom: 1px solid #fff;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+#about .about1 .card1 ul li a:hover{
+    background: #ff9b51;
+    color: #333333;
+}
+#about .about1 .card1{
+    width: 20%;
+}
+#about .about1 .card2{
+    width: 40%;
+}
+#about .about1 .card2 h1{
+    font-size: 123%;
+    padding-bottom: 11%;
+}
+#about .about1 .card2 p{
+    font-size: 103%;
+}
+#about .about1 .card2 #submit {
+    background: #ff9b51;
+    color: #fff;
+    width: 20%;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 50px;
+    padding: 20px 0;
+    border: none;
+}
+#about .about1 .card2 #submit:hover {
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+#about .about1 .card3{
+    width: 30%;
+    padding-left:8%;
+}
+#about .about1 .card3 .card-img{
+    width: 100%;
+    height: 250px;
+}
+#about .about2-left {
+    width: 50%;
+    margin: 14% 0% 5%;
+}
+#about .about2-left .card-img{
+    width: 90%;
+}
+
+#about .about2-right {
+    width: 45%;
+    margin: 14% 0% 5%;
+    float: right;
+}
+
+#about .about2-right h3 {
+    font-size: 100%;
+    color: #333333;
+}
+#about p{
+    color:#7a7373 ;
+    padding-bottom: 35px;
+}
+#about h4{
+    padding-bottom: 15px;
+}
+#about .about2-right i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+    text-align: center;
+    font-size: 18px;
+}
+#about .about2-right td {
+    padding-right: 10%;
+}
+
+#about .about3-left {
+    width: 49%;
+    margin: 8% 0% 5%;
+    float: left;
+}
+#about .about3-right {
+    width: 49%;
+    margin: 2% 0% 5%;
+}
+#about .about3-right .card-img{
+    float: right;
+}
+#about .upper{
+    text-align: center;
+    padding-top :10%; 
+    font-size: 20px;
+}
+#about .upper .line{
+    margin: 30px auto;
+}
+#about .down{
+    text-align: center;
+    padding-top :2%; 
+}
+#about .card{
+    width: 30%;
+    text-align: center;
+}
+#about .card h3{
+    padding-bottom: 4%;
+}
+#about .card i{
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+    color: #ff8b38;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 2%;
+}
+/*End About Section*/
+
+/*Start Price Section*/
+#price .upper{
+    text-align: center;
+    padding-top :10%; 
+    font-size: 20px;
+}
+#price .upper .line{
+    margin: 30px auto;
+}
+#price .down{
+    text-align: center;
+    padding:2% 0%; 
+}
+#price .card{
+    width: 30%;
+    text-align: center;
+    margin: 1%;
+}
+#price .card h3 ,#price .card .special-p{
+    margin: auto;
+    background-color: #333333;
+    text-align: center;
+    padding: 4% 0%;
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+#price .card .special-p2{
+    color:white ;
+    padding: 15px 0px;
+    background-color: #ff8b38;
+    border-bottom: 1px solid #ff8b38;
+}
+#price .card .special-p{
+    color:#7a7373 ;
+    padding-bottom: 35px;
+    font-style: italic;
+    border-bottom: 4px solid #ff8b38;
+}
+#price .card  p{
+    color:#7a7373 ;
+    padding: 15px 0px;
+    border-bottom: 1px solid #cfb7b7;
+}
+#price .card h1  {
+    background: #333333;
+    color: #fff;
+
+}
+#price .card h1  span{
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 100%;
+}
+/*End Price Section*/
+
+/*Start Reviews Section*/
+#reviews .upper{
+    text-align: center;
+    padding-top :10%; 
+    font-size: 20px;
+}
+#reviews .upper .line{
+    margin: 30px auto;
+}
+#reviews .down{
+    text-align: center;
+    padding:2% 0%; 
+}
+#reviews .card{
+    width: 25%;
+    text-align: left;
+    padding: 1%;
+    margin: 0% 2% ;
+}
+
+#reviews .card .special-p{
+    background-color: #f5f5f5;    
+    padding: 3%;
+    margin: -1% 2% ;
+}
+#reviews .card table tr td {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+#reviews .card table tr td h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+#reviews .card table::before{
+    content: "";
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    border-top: 27px solid #f5f5f5;
+    display: inline-block;
+    margin-left: 30%;
+
+}
+/*End Reviews Section*/
+/*Start news Section*/
+#news{
+    background: url(../assets/imgs/news.jpg);
+    background-size: cover;
+
+}
+#news .card{
+    padding: 50px 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 34px;
+}
+#news p{
+    color: #fff !important;
+}
+#news .line{
+    margin: 30px auto;
+    background: white !important;
+}
+#news .card-btn {
+    width: 135px;
+    height: 42px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#news .card-btn:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+/* End news Section*/
+/*Start Contact Section*/
+#contact {
+    text-align: center;
+    padding: 4%;
+}
+#contact .upper .line {
+    margin: 30px auto;
+}
+#contact .down {
+    width: 100%;
+}
+
+#contact form table {
+    width: 100%;
+}
+#contact form table input ,#contact form table textarea {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 10px;
+    outline: 0;
+}
+
+#contact form table input:focus ,#contact form table textarea  {
+    border-bottom: 1px solid #ff9b51;
+}
+#contact form table textarea {
+    height: 110px;
+}
+#contact form table td {
+    padding: 0% 3%;
+    width: 44%;
+
+}
+#contact form #submit {
+    background: #ff9b51;
+    color: #fff;
+    width: 20%;
+    border-radius: 3px 3px 3px 3px;
+    margin-top: 50px;
+    padding: 20px 0;
+    border: none;
+}
+#contact form #submit:hover {
+    background: black;
+    color: #fff;
+    cursor: pointer;
+}
+/*End Contact Section*/
+/*Start Footer Section*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+footer .links{
+    margin: 1%;
+}
+footer a i {
+    color: #cccccc;
+    padding: 0 10px;
+}
+footer p, footer p a {
+    color: #7a7373;
+}
+footer p a:hover{
+    color: #cccccc;
+}
+
+footer a i:hover {
+    color: #ff9b51;
+    
+}
+/*End Footer Section*/
